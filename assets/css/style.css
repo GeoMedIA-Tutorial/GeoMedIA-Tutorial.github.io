@@ -937,9 +937,10 @@ section {
   margin: 0 2px;
 }
 .team .member:hover .member-info {
+  border-radius: 50%;
   background: linear-gradient(0deg, rgba(12, 17, 26, 0.9) 0%, rgba(20, 29, 43, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
   opacity: 1;
-  transition: 0.4s;
+  transition: 0s;
 }
 .team .member:hover .member-info-content {
   bottom: 60px;
